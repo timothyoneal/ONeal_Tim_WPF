@@ -19,6 +19,13 @@ console.log("Sparky is " + humanAge + " which is " + sparkyAge + " in dog years.
 
 // Find the number of pizza slices per party guest.;
 
+var partyGuest= 13;
+var slicesPizza= 8;
+var pizzaOrdered= 4;
+
 // Calculate the Number of pizza slices per guest slices pizzaOrdered*slicesPizza/partyGuest
 
+var slicesGuest = pizzaOrdered * slicesPizza / partyGuest;
+
 // print out for slicesGuest;
+
