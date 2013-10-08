@@ -4,6 +4,10 @@
     
 // Find Sparky the pit bulls age.;
 
+var humanAge= 4.5;
+var dogYears= 7;
+
 // Calculate Sparkys age in dog years dogYears*humanAge;
 
+var sparkyAge = humanAge * dogYears;
 //print out for sparkyAge;
