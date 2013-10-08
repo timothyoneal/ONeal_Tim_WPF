@@ -29,3 +29,4 @@ var slicesGuest = pizzaOrdered * slicesPizza / partyGuest;
 
 // print out for slicesGuest;
 
+console.log("Each party guest ate " + slicesGuest + " of pizza at the party." );
