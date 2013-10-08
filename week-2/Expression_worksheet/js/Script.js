@@ -10,4 +10,15 @@ var dogYears= 7;
 // Calculate Sparkys age in dog years dogYears*humanAge;
 
 var sparkyAge = humanAge * dogYears;
+
 //print out for sparkyAge;
+
+console.log("Sparky is " + humanAge + " which is " + sparkyAge + " in dog years.");
+
+/*A bunch of students are having a party and somebody ordered pizza. Create an expression that calculates how much pizza each partygoer will get at the party.  (Assume all pizzas have the same number of slices and that the person dividing the pizza is really precise, so this can be a decimal, like 3.52 slices, etc.) */
+
+// Find the number of pizza slices per party guest.;
+
+// Calculate the Number of pizza slices per guest slices pizzaOrdered*slicesPizza/partyGuest
+
+// print out for slicesGuest;
