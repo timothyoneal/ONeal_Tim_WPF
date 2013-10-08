@@ -36,6 +36,12 @@ Example data set: 10 people, 4 pizzas and 8 slices per pizza will mean each pers
 
 // Find the number of pizza slices per party guest.;
 
+var partyGuest= 13;
+var slicesPizza= 8;
+var pizzaOrdered= 4;
+
 // Find the remainder of pizza after evenly devided among guest. slicesPizza*pizzaOrdered%partyGuest.;
+
+var slicesSparky= slicesPizza * pizzaOrdered % partyGuest;
 
 // print out for slicesSparky;
