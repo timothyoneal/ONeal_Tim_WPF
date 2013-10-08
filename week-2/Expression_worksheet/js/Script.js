@@ -52,41 +52,33 @@ console.log("Sparky got " +slicesSparky +" slices of pizza.");
 
 // Past grocery bill amounts.;
 
+var pastBill= [60, 125, 80, 75, 140];
+var weeks= 5;
+
 // Calulate total bill and average bill;
+
+var totalBill= pastBill[0]+ pastBill[1] + pastBill[2] + pastBill[3] + pastBill[4];
+var averageBill= totalBill/weeks
 
 // Print out for totalBill and averageBill.;
 
+console.log("You have spent a total of $" + totalBill + " on groceries over a 5 week period. that is an average of $" + averageBill +" per week.");
 
 
+/*Calculate the discounted price for an item. Create an expression that will calculate the discounted price with and without sales tax. (It is acceptable for the result to have more than two digits after the decimal. $345.896 for example.)*/
 
+// calulate the discount;
 
+var itemPrice= 1865;
+var discountRate= 15; // 15% discount;
+var discountFigure= .15; 
+var itemName= "wheelchair";
+var taxRate= .075; // 7.5% sales tax;
 
+// calculate Price with and without sales tax;
 
+var priceAfterDiscount= itemPrice - (itemPrice*discountFigure); 
+var priceWithTax= priceAfterDiscount + (priceAfterDiscount*taxRate);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Print out for price info.;
+console.log ("Your " + itemName + " was originally $" + itemPrice + ", but after a " + discountRate + "% discount, it is now $" + priceAfterDiscount  + " without tax, and $" + priceWithTax + " with tax.")
