@@ -15,6 +15,9 @@ var freeThrowsMade = prompt ("How many free throws did you make? be honest.");
 
 const threePointShotsTaken = 50;
 
+const twoPointShotsTaken = 50;
+
+const freeThrowsTaken = 50;
 
 
 
