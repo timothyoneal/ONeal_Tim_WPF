@@ -17,4 +17,6 @@ var totalCostTubes = tubesPurchased * tubesCost;
 var totalCostTires = tiresCost * tiresPurchased;
 var totalCost= totalCostTires + totalCostTubes;
 
-console.log(totalCost)
+// solution print out;
+
+console.log("You purchased " + tiresPurchased + " ")
