@@ -6,3 +6,5 @@ alert ("test");
 
 // variables and constants.;
 
+var tiresPurchased= 7;
+var tubesPurchased= 20;
