@@ -2,6 +2,8 @@
 
 /*This project will track the number of 2 point, 3 point and Free throws  basketball player makes in an individual woukout. As well as the percentage for all 3 and overall. Givens are there will be 50 shots at each range */
 
+var userName = prompt("What is your name?")     
+
 alert("")
 
 
