@@ -9,8 +9,9 @@ alert("Hello " + userName + " before you proceed further please take 50 shots fr
 
 var threePointShotsMade = prompt("How many 3 point shats did you make? be honest.");
 
-var twoPointShotsMade = prompt("How many 2 point shots did you make? be honest.")
+var twoPointShotsMade = prompt("How many 2 point shots did you make? be honest.");
 
+var freeThrowsMade = prompt ("How many free throws did you make? be honest.")
 
 
 
