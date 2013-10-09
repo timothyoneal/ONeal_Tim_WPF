@@ -4,7 +4,7 @@
 
 var userName = prompt("What is your name?")     
 
-alert("")
+alert("Hello " + userName + " before you proceed further please take 50 shots from inside and outside of the the three point arch, and 50 free throws.")
 
 
 
