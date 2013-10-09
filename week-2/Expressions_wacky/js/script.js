@@ -19,5 +19,7 @@ const twoPointShotsTaken = 50;
 
 const freeThrowsTaken = 50;
 
+const totalShotsTaken = 150;
+
 
 
