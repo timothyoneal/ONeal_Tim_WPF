@@ -21,5 +21,6 @@ const freeThrowsTaken = 50;
 
 const totalShotsTaken = 150;
 
+// Figure solution.;
 
 
