@@ -8,6 +8,6 @@ alert ("test");
 
 var tiresPurchased= 8;      // 2 pairs of tires for for sets of wheels.; 
 var tubesPurchased= 20;     // plenty of tubes never know whe you will need them.; 
-const tiresCost= 30;
-const tubesCost= 2.25;
+const tiresCost= 30;        // tire cost from manufacturer in Georgia.;
+const tubesCost= 2.25;      // tube cost from manufacturer in Georgia.;
 
