@@ -23,4 +23,6 @@ const totalShotsTaken = 150;
 
 // Figure solution.;
 
+var threePointPercentage = threePointShotsMade / threePointShotsTaken * 100;
+console.log(threePointPercentage)
 
