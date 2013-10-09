@@ -7,7 +7,7 @@ var userName = prompt("What is your name?");
 
 alert("Hello " + userName + " before you proceed further please take 50 shots from inside and outside of the the three point arch, and 50 free throws.");
 
-var threePointShotsMade = prompt("How many 3 point shats did you make? be honest.");
+var threePointShotsMade = prompt("How many 3 point shots did you make? be honest.");
 
 var twoPointShotsMade = prompt("How many 2 point shots did you make? be honest.");
 
@@ -26,7 +26,7 @@ const totalShotsTaken = 150;
 var threePointPercentage = threePointShotsMade / threePointShotsTaken * 100;
 var twoPointPercentage = twoPointShotsMade / twoPointShotsTaken * 100;
 var freeThrowPercentage = freeThrowsMade / freeThrowsTaken * 100;
+var totalShootingPercentage = (Number(threePointShotsMade) + Number(twoPointShotsMade) + Number(freeThrowsMade)) / 150 * 100;
 
-
-console.log(freeThrowPercentage);
+console.log(totalShootingPercentage);
 
