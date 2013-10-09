@@ -1,7 +1,5 @@
 // Tim ONeal Epressions_personal October 9, 2013;
 
-alert ("test");
-
 /*This project will figure how much I spend yearly maintaining the wheels for my  wheelchairs. Givens are Tires cost $30 ea and tubes cost 2.25 ea.*/
 
 // variables and constants.;
@@ -13,9 +11,9 @@ const tubesCost = 2.25;      // tube cost from manufacturer in Georgia.;
 
 // figure the cost for a year;
 
-var totalCostTubes = tubesPurchased * tubesCost;
-var totalCostTires = tiresCost * tiresPurchased;
-var totalCost = totalCostTires + totalCostTubes;
+var totalCostTubes = tubesPurchased * tubesCost;    // cost should be 45;
+var totalCostTires = tiresCost * tiresPurchased;    // cost should be 240; 
+var totalCost = totalCostTires + totalCostTubes;    // cost should be 285;
 
 // solution print out;
 
