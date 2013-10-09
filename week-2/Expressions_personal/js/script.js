@@ -19,4 +19,4 @@ var totalCost= totalCostTires + totalCostTubes;
 
 // solution print out;
 
-console.log("You purchased " + tiresPurchased + " ")
+console.log("You purchased " + tiresPurchased + " wheelchair tires for $" + totalCostTires "") 
