@@ -11,3 +11,4 @@ var tubesPurchased= 20;     // plenty of tubes never know whe you will need them
 const tiresCost= 30;        // tire cost from manufacturer in Georgia.;
 const tubesCost= 2.25;      // tube cost from manufacturer in Georgia.;
 
+// figure the cost for a year;
