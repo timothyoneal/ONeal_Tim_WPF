@@ -14,6 +14,7 @@ const tubesCost= 2.25;      // tube cost from manufacturer in Georgia.;
 // figure the cost for a year;
 
 var totalCostTubes = tubesPurchased * tubesCost;
-var totalCostTire = tiresCost * tiresPurchased;
+var totalCostTires = tiresCost * tiresPurchased;
+var totalCost= totalCostTires + totalCostTubes;
 
-console.log(totalCostTires)
+console.log(totalCost)
