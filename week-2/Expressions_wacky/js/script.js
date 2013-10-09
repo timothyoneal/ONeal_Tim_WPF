@@ -7,5 +7,8 @@ var userName = prompt("What is your name?");
 
 alert("Hello " + userName + " before you proceed further please take 50 shots from inside and outside of the the three point arch, and 50 free throws.");
 
+var threePointShotsMade = prompt("How many 3 point shats did you make? be honest.");
+
+
 
 
