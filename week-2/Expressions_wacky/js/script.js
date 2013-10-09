@@ -25,7 +25,8 @@ const totalShotsTaken = 150;
 
 var threePointPercentage = threePointShotsMade / threePointShotsTaken * 100;
 var twoPointPercentage = twoPointShotsMade / twoPointShotsTaken * 100;
+var freeThrowPercentage = freeThrowsMade / freeThrowsTaken * 100;
 
 
-console.log(twoPointPercentage);
+console.log(freeThrowPercentage);
 
