@@ -19,6 +19,6 @@ var totalCost= totalCostTires + totalCostTubes;
 
 // solution print out;
 
-console.log("You purchased " + tiresPurchased + " wheelchair tires for total cost of $" + totalCostTires ". You also purchased " + tubesPurchased " tubes for a total cost of $" + totalCostTubes "" );
+console.log("You purchased " + tiresPurchased + " wheelchair tires for total cost of $" + totalCostTires ". You also purchased " + tubesPurchased " tubes for a total cost of $" + totalCostTubes ". The total cost of all purchases is $" +totalCost "."); /*intentionally left mistakes so i can get commits*/ 
 
 
