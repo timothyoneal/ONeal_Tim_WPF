@@ -16,4 +16,4 @@ var pixelsHeight = heightInches * dpiSetting;
 
 var pixelWidth = widthInches * dpiSetting;
 
-console.log(pixelsWidth) 
+// print out for picture size in pixels;
