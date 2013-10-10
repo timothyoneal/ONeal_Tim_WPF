@@ -8,4 +8,4 @@ var heightInches = prompt("What is the height of your image? in inches");
 
 var widthInches = prompt("What is the width of your image? in inches");
 
-const dpiSetting = 200; 
+const dpiSetting = 200; // in reality this would be a var bsed on scanners settings using 200 dpi so math is easy to check;
