@@ -4,3 +4,4 @@
 
 // convert pixels to inches.;
 
+var heightInches = prompt("What is the height of your image? in inches");
