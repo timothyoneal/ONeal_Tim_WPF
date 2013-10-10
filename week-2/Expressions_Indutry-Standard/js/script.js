@@ -18,4 +18,4 @@ var pixelWidth = widthInches * dpiSetting;
 
 // print out for picture size in pixels;
  
-alert("The height of your image in pixels is " + pixelsHeight + " pixels.")
+alert("The height of your image in pixels is " + pixelsHeight + " pixels. The width of your image in pixels is " + pixelWidth + " pixels.")
