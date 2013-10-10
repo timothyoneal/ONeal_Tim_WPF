@@ -32,3 +32,4 @@ var totalShootingPercentage = (Number(threePointShotsMade) + Number(twoPointShot
 
 alert("Hello " +userName + ", during your shooting workout you shot " + twoPointPercentage  + "% inside the three-point line, and " + threePointPercentage + "% from three-point range. You also shot " +freeThrowPercentage + "% from that three point line. That is a total shooting percentage of " + totalShootingPercentage + "% keep up the practice.")
 
+console.log("Hello " +userName + ", during your shooting workout you shot " + twoPointPercentage  + "% inside the three-point line, and " + threePointPercentage + "% from three-point range. You also shot " +freeThrowPercentage + "% from that three point line. That is a total shooting percentage of " + totalShootingPercentage + "% keep up the practice.")
