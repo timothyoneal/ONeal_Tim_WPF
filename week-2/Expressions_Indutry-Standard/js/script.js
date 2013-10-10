@@ -2,3 +2,5 @@
 
 /*convert inches to pixels input from scanner  Inches X DPI = Pixels*/
 
+// convert pixels to inches.;
+
