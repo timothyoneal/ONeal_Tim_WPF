@@ -14,3 +14,6 @@ const dpiSetting = 200; // in reality this would be a var bsed on scanners setti
 
 var pixelsHeight = heightInches * dpiSetting;
 
+var pixelWidth = widthInches * dpiSetting;
+
+console.log(pixelsWidth) 
