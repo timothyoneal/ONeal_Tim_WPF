@@ -7,3 +7,5 @@
 var heightInches = prompt("What is the height of your image? in inches");
 
 var widthInches = prompt("What is the width of your image? in inches");
+
+const dpiSetting = 200; 
