@@ -26,7 +26,9 @@ const totalShotsTaken = 150;
 var threePointPercentage = threePointShotsMade / threePointShotsTaken * 100;
 var twoPointPercentage = twoPointShotsMade / twoPointShotsTaken * 100;
 var freeThrowPercentage = freeThrowsMade / freeThrowsTaken * 100;
-var totalShootingPercentage = (Number(threePointShotsMade) + Number(twoPointShotsMade) + Number(freeThrowsMade)) / 150 * 100;
+var totalShootingPercentage = (Number(threePointShotsMade) + Number(twoPointShotsMade) + Number(freeThrowsMade)) / 150 * 100; 
 
-console.log(totalShootingPercentage);
+// Print out results;
+
+alert("Hello " +userName + ", during your shooting workout you shot " + twoPointPercentage  + "% inside the three-point line, and " + threePointPercentage + "% from three-point range. You also shot " +freeThrowPercentage + "% from that three point line. That is a total shooting percentage of " + totalShootingPercentage + "% keep up the practice.")
 
