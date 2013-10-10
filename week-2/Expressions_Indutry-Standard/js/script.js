@@ -12,3 +12,5 @@ const dpiSetting = 200; // in reality this would be a var bsed on scanners setti
 
 // calculations formula is Inches X DPI = Pixels.; 
 
+var pixelsHeight = heightInches * dpiSetting;
+
