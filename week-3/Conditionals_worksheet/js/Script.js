@@ -35,9 +35,28 @@ if (milesTillEmpty > 200) {
     console.log ("“Yes, you can make it without stopping for gas!");
     }else{
     // if trip cannot be made;
-    console.log("You only have " + currentGallons + " gallons of gas in your tank, which will take you " + milesTillEmpty + " miles better  get gas now while you can!")
+    console.log("You only have " + currentGallons + " gallons of gas in your tank, which will take you " + milesTillEmpty + " miles better  get gas now while you can!");    
+}
     
+/*Make sure the user has the correct username and password. If the username doesn’t match then a specific message for that should be printed to the console. If the password doesn’t match a message should appear for that, etc. Only one error message should appear.*/
+
+// validate user name and password.;
+
+var inputUserName = prompt("Insert your username.");
+var inputPassWord = prompt("insert your password.");
+var correctUserName = "timoneal";
+var correctPassWord = "password";
+
+// if inputUserName does not match correctUserName OR inputPassWord does not match correctPassWord user sign in fails.;
+
+if (inputUserName != correctPassWord || inputPassWord != correctPassWord) {
+    console.log("User not found. Try again.");
+    }else{
+    console.log("Password does not match our records.");
     }
+
+
+
 
 
 /********************sources********************/ 
