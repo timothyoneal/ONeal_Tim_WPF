@@ -19,7 +19,7 @@ const minGames=10;      // minimum required games by the NWBA.;
 if (gamesLost+gamesWon>minGames) {
     // team has qualified.;
     console.log("This team has qualified for nationals!");
-}else if(totalGames=minGames){
+}else if(totalGames==minGames){
     console.log("this team has met the minimum requirements to qualify for nationals.");   
 }else{
     //team has not qualified.;
