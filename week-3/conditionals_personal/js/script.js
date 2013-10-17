@@ -6,9 +6,9 @@ alert("test");
 
 // calculate number of team games.;
 
-var gamesWon=alert("Enter the number of games the team has won.");      // in reality this will be enter wher team rep reports the team scores to the national office;
+var gamesWon=prompt("Enter the number of games the team has won.");      // in reality this will be enter wher team rep reports the team scores to the national office;
 
-var gamesLost=alert("Enter the number of games the team has lost.");    // in reality this will also be enter wher team rep reports the team scores to the national office;
+var gamesLost=prompt("Enter the number of games the team has lost.");    // in reality this will also be enter wher team rep reports the team scores to the national office;
 
 const minGames=10;      // minimum required games by the NWBA.;
 
