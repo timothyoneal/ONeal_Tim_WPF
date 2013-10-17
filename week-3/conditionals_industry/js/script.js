@@ -8,6 +8,7 @@ var bannerWidth=prompt("What is the banner width in pixels?");      // input sho
 
 var bannerHeight=prompt("What is the banner height in pixels?");     // input should be a number.;
 
-const dpi=72;       //image created at 72 dpi;
+const printerDPI=600;       //printer prints at 600 dpi;
+
 
 
