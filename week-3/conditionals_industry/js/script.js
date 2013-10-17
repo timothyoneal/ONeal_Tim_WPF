@@ -8,3 +8,5 @@ var bannerWidth=prompt("What is the banner width in pixels?");      // input sho
 
 var bannerHeight=prompt("What is the banner height in pixels?");     // input should be a number.;
 
+const dpi=72;
+
