@@ -44,13 +44,15 @@ if (milesTillEmpty > 200) {
 
 var inputUserName = prompt("Insert your username.");
 var inputPassWord = prompt("insert your password.");
-var correctUserName = "timoneal";
-var correctPassWord = "password";
+var correctUserName = true;
+var correctPassWord = true;
 
-// if inputUserName does not match correctUserName OR inputPassWord does not match correctPassWord user sign in fails.;
+// if inputUserName does not match correctUserName AND OR inputPassWord does not match correctPassWord user sign in fails.;
 
-if (inputUserName != correctPassWord || inputPassWord != correctPassWord) {
+if (inputUserName==null || inputUserName!="correctUserName" && inputPassWord==null || correctPassWord) {
     console.log("User not found. Try again.");
+    }else if(inputUserName===correctUserName&&inputPassWord===correctPassWord){
+    console.log("Welcome " + correctUserName + "!");
     }else{
     console.log("Password does not match our records.");
     }
