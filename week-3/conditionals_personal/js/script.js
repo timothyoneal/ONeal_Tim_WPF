@@ -10,4 +10,4 @@ var gamesWon=alert("Enter the number of games the team has won.");      // in re
 
 var gamesLost=alert("Enter the number of games the team has lost.");    // in reality this will also be enter wher team rep reports the team scores to the national office;
 
-const minGames=10;
+const minGames=10;      // minimum required games by the NWBA.;
