@@ -12,4 +12,5 @@ const printerDPI=600;       //printer prints at 600 dpi;
 
 const magPageWidth=8.5;     // magazizine page width;
 
+const magPageheight=11;
 
