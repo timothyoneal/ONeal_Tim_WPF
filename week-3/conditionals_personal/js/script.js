@@ -6,7 +6,7 @@ alert("test");
 
 // calculate number of team games.;
 
-var gamesWon=alert("Enter the number of games the team has won.");
+var gamesWon=alert("Enter the number of games the team has won.");      // in reality this will be enter wher team rep reports the team scores to the national office;
 
 var gamesLost=alert("Enter the number of games the team has lost.");
 
