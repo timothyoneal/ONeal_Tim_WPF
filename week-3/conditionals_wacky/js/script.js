@@ -6,4 +6,4 @@ alert("test");
 
 var wheelchairSpeed=5;      // this is estimated speed.;
 var trvelDistance=prompt("How far away do you have to travel?");        
-  
+var timeToAppt=1;  
