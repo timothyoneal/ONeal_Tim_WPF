@@ -18,5 +18,6 @@ if (gamesLost+gamesWon>minGames) {
     // team has qualified.;
     console.log("This team has qualified for nationals!");
 }else{
+    //team has not qualified.;
     console.log("This team has not qualified for nationals, more games needed.");    
 }
