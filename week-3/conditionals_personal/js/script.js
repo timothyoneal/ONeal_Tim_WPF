@@ -7,3 +7,6 @@ alert("test");
 // calculate number of team games.;
 
 var gamesWon=alert("Enter the number of games the team has won.");
+
+var gamesLost=alert("Enter the number of games the team has lost.");
+
