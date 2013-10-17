@@ -10,6 +10,8 @@ var gamesWon=prompt("Enter the number of games the team has won.");      // in r
 
 var gamesLost=prompt("Enter the number of games the team has lost.");    // in reality this will also be enter wher team rep reports the team scores to the national office;
 
+var totalGames=gamesLost+gamesWon; 
+
 const minGames=10;      // minimum required games by the NWBA.;
 
 // if the team has gone over the required number of games they are eligible for Nationals.;
@@ -17,7 +19,7 @@ const minGames=10;      // minimum required games by the NWBA.;
 if (gamesLost+gamesWon>minGames) {
     // team has qualified.;
     console.log("This team has qualified for nationals!");
-}else if(gamesLost+gamesWon=minGames){
+}else if(totalGames=minGames){
     console.log("this team has met the minimum requirements to qualify for nationals.");   
 }else{
     //team has not qualified.;
