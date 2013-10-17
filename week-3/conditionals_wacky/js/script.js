@@ -7,4 +7,4 @@ alert("test");
 var wheelchairSpeed=6;      // this is estimated speed.;
 var trvelDistance=prompt("How far away do you have to travel?");        
 var timeToAppt=1;           // 1 hour untill appointment.;
-var timePerMile= .16666666666667;              
+var timePerMile= .16666666666667;   // 10 min mile/60 min in 1 hour.;
