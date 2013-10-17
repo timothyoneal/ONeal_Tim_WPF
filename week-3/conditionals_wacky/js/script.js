@@ -15,5 +15,5 @@ if (travelDistance*timePerMile<timeToAppt) {
     //trip can be made with in time frame.;
     console.log("You can make the trip pushig yourself.");
 }else{
-    
+    console.log("You can not make the trip pushig yourself.");
 }
