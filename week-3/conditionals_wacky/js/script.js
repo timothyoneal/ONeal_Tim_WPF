@@ -14,4 +14,6 @@ var timePerMile=.16666666666667;   // 10 min mile/60 min in 1 hour.;
 if (travelDistance*timePerMile<timeToAppt) {
     //trip can be made with in time frame.;
     console.log("You can make the trip pushig yourself.");
+}else{
+    
 }
