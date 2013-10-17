@@ -10,6 +10,6 @@ var bannerHeight=prompt("What is the banner height in pixels?");     // input sh
 
 const printerDPI=600;       //printer prints at 600 dpi;
 
-const magPageWidth=8.5;
+const magPageWidth=8.5;     // magazizine page width;
 
 
