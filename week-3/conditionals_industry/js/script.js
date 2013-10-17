@@ -8,6 +8,7 @@ var bannerWidth=prompt("What is the banner width in pixels?");      // input sho
 
 var bannerHeight=prompt("What is the banner height in pixels?");     // input should be a number.;
 
+var bannerWidthInches=bannerWidth/printerDPI;
 const printerDPI=600;       //printer prints at 600 dpi;
 
 const magPageWidth=8.5;     // magazizine page width;
