@@ -10,3 +10,4 @@ var gamesWon=alert("Enter the number of games the team has won.");
 
 var gamesLost=alert("Enter the number of games the team has lost.");
 
+const minGames=10;
