@@ -20,6 +20,10 @@ const magPageheight=11;     // magazizine page height;
 
 // can banner be printed as full page add without further editting?;
 
+if (bannerWidthInches==magPageWidth&&bannerHeightInches==magPageheight) {
+    // no further editting needed.;
+    console.log("There is no further editting needed.");
+}
 
 
 
