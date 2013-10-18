@@ -11,10 +11,15 @@ var bannerHeight=prompt("What is the banner height in pixels?");     // input sh
 var bannerWidthInches=bannerWidth/printerDPI;   // pixels/dpi=inches;
 
 var bannerHeightInches=bannerHeight/printerDPI; // pixels/dpi=inches;
+
 const printerDPI=600;       //printer prints at 600 dpi;
 
 const magPageWidth=8.5;     // magazizine page width;
 
 const magPageheight=11;     // magazizine page height;
+
+// can banner be printed as full page add without further editting?;
+
+
 
 
