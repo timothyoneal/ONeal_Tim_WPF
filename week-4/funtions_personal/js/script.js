@@ -1,6 +1,5 @@
 // Tim ONeal functions personal October 24, 2013;
 
-alert("test");
 
 /*I play wheelchair basketball the majority of our tournaments are 5 games over 2 days this function will calculte the average points per game over 5 game tournament.*/
 
@@ -14,7 +13,7 @@ var game5=prompt("How many points did you score in game 5?");
 
 var ppg=calcppg(Number(game1), Number(game2), Number(game3), Number(game4), Number(game5));
 
-console.log(ppg)
+
 function calcppg(g1, g2, g3, g4, g5) {
     var ppg=(g1+g2+g3+g4+g5)/5;
     return ppg;
