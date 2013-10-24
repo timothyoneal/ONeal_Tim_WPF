@@ -12,7 +12,9 @@ var game3=prompt("How many points did you score in game 3?");
 var game4=prompt("How many points did you score in game 4?");
 var game5=prompt("How many points did you score in game 5?");
 
+var ppg=calcppg(game1, game2, game3, game4, game5);
 
+console.log(ppg)
 function calcppg(g1, g2, g3, g4, g5) {
     var ppg=(g1+g2+g3+g4+g5)/5;
     return ppg;
