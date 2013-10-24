@@ -10,3 +10,4 @@ var game1=prompt("How many points did you score in game 1?");
 var game2=prompt("How many points did you score in game 2?");
 var game3=prompt("How many points did you score in game 3?");
 var game4=prompt("How many points did you score in game 4?");
+var game5=prompt("How many points did you score in game 5?");
