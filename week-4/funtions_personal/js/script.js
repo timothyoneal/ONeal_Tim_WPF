@@ -20,7 +20,7 @@ function calcppg(g1, g2, g3, g4, g5) {
     return ppg;
 }
 
-if (ppg>=10) {
+if (ppg>=10&&ppg<=20) {
     console.log("You averaged " +ppg +" points this tournament. That was a good contribution to the teams success.");
 }else if (ppg>20) {
     console.log("You averaged " +ppg +" points this tournament. That was an awesome shooting performance this weekend. Great job!");
