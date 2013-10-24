@@ -15,3 +15,9 @@ var game8=prompt("how many points did you score in game 8?");
 var game9=prompt("how many points did you score in game 9?");
 var game10=prompt("how many points did you score in game 10?");
 
+
+
+function calcAvgPoints(g1, g2, g3, g4, g5){
+    var tournAvg(g1+g2+g3+g4+g5)/5;
+    return tournAvg
+} 
