@@ -8,3 +8,4 @@ alert("test");
 
 var game1=prompt("How many points did you score in game 1?");
 var game2=prompt("How many points did you score in game 2?");
+var game3=prompt("How many points did you score in game 3?");
