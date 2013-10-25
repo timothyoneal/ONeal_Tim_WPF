@@ -7,6 +7,7 @@ alert("test");
 var pixels=prompt("what is pixel size?");
 var defaultOneEm=16;
 
+var em=calcem(pixels, defaultOneEm);
 function calcem(px, dfpx) {
     var em=px/dfpx;
     return em;
