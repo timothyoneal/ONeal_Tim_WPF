@@ -5,10 +5,10 @@ alert("test");
 /*converting px to em for responsive web designs by default 1em=16px*/
 
 var pixels=prompt("what is pixel size?");   // input should be a number.;
-var defaultOneEm=16;
+var defaultOneEm=16;                        // 1em=16px;
 
 var ems=calcem(Number(pixels), defaultOneEm);
-function calcem(px, dfpx) {
+function calcem(px, dfpx) {             
     var ems=px/dfpx;
     return ems;
 }
