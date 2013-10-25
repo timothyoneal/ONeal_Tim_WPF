@@ -13,7 +13,6 @@ function calcem(px, dfpx) {                 // px=pixels dfpx=default pixels;
     return ems;
 }
 
-console.log(ems);
 
 if (ems>1) {
     console.log(pixels+" pixels is more then 1 em at "+ems+" ems.");    
