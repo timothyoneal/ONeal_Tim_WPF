@@ -16,8 +16,9 @@ function calcem(px, dfpx) {
 console.log(ems);
 
 if (ems>1) {
-    console.log(pixels+" pixels is more then 1 em "+ems+" ems.");    
-}else{
+    console.log(pixels+" pixels is more then 1 em at "+ems+" ems.");    
+}else if(ems==1){
+    console.log(pixels +" pixels is equal to 1 em.")}else{
     console.log(pixels+" pixels is less than 1 em at "+ems+" ems.");
 }
 
