@@ -27,8 +27,7 @@ function calcppg(g1, g2, g3, g4, g5) {
     return ppg;
 }
 
-if (tournTwoAvg>tournOneAvg) {
-    console.log("Your points per game went up from the first to second tournament.")
-}
+(tournTwoAvg>tournOneAvg) ? console.log("Your points per game went up from the first to second tournament."): console.log("Your points per game stayed the same or went down from the first to second tournament.")
+
 
 
