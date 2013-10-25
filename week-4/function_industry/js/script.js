@@ -16,6 +16,6 @@ function calcem(px, dfpx) {
 console.log(ems);
 
 if (ems>1) {
-    
+    console.log(pixels+" pixels is equal to "+ems+" ems.");    
 }
 
