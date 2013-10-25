@@ -13,5 +13,9 @@ function calcem(px, dfpx) {
     return ems;
 }
 
-console.log(ems)
+console.log(ems);
+
+if (ems>1) {
+    
+}
 
