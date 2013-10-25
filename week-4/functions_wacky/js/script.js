@@ -15,13 +15,17 @@ var game8=prompt("how many points did you score in game 8?");
 var game9=prompt("how many points did you score in game 9?");
 var game10=prompt("how many points did you score in game 10?");
 
-var tournOneAvg=calcAvgPoints(Number(game1)+Number(game2)+Number(game3)+Number(game4)+Number(game5));
-var tournTwoAvg=calcAvgPoints(Number(game6)+Number(game7)+Number(game8)+Number(game9)+Number(game10));
+var tournOneAvg=calcppg(Number(game1), Number(game2), Number(game3), Number(game4), Number(game5));
+var tournTwoAvg=calcppg(Number(game6), Number(game9), Number(game8), Number(game9), Number(game10));
+
 
 console.log(tournOneAvg);
 console.log(tournTwoAvg);
 
-function calcAvgPoints(g1, g2, g3, g4, g5){
-    var tournAvg(g1+g2+g3+g4+g5)/5;
-    return tournAvg;
-} 
+function calcppg(g1, g2, g3, g4, g5) {
+    var ppg=(g1+g2+g3+g4+g5)/5;
+    return ppg;
+}
+
+
+
