@@ -1,6 +1,5 @@
 // Tim ONeal functions wacky October 24, 2013;
 
-alert("test");
 
 /*In addition to tracking points per game some teams track player progress from tournament to tournament. this will make those calculations easier.*/
 
@@ -19,15 +18,12 @@ var tournOneAvg=calcppg(Number(game1), Number(game2), Number(game3), Number(game
 var tournTwoAvg=calcppg(Number(game6), Number(game9), Number(game8), Number(game9), Number(game10));
 
 
-console.log(tournOneAvg);
-console.log(tournTwoAvg);
-
 function calcppg(g1, g2, g3, g4, g5) {
     var ppg=(g1+g2+g3+g4+g5)/5;
     return ppg;
 }
 
-(tournTwoAvg>tournOneAvg) ? console.log("Your points per game went up from the first to second tournament."): console.log("Your points per game stayed the same or went down from the first to second tournament.")
+(tournTwoAvg>tournOneAvg) ? console.log("Your points per game went up from the first to second tournament."): console.log("Your points per game stayed the same or went down from the first to second tournament.");
 
 
 
